@@ -17,7 +17,7 @@ class TocMachine(GraphMachine):
 		
     def	is_going_to_state3(self, event):
         text = event.message.text
-        return text.lower() == "mew"
+        return text.lower() == "cat"
 
     def on_enter_state1(self, event):
        	print("I'm entering state1")
@@ -43,7 +43,7 @@ class TocMachine(GraphMachine):
         print("I'm entering state3")
 
         reply_token = event.reply_token
-        send_text_message(reply_token, "Trigger state3")
+        send_text_message(reply_token, "mew")
         self.go_back()
 
     def on_exit_state3(self):
