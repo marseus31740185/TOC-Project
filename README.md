@@ -12,6 +12,7 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
 		
 	* Input: "cat"
 		* Reply: "mew"
+![line](./img/line.png)
 
 ## Finite State Machine
 ![fsm](./img/show-fsm.png)
