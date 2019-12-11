@@ -1,9 +1,17 @@
-## Introduction
-When input:
-"go to state1", it will reply with "Trigger state1"
-"go to state2", it will reply with "Trigger state2"
-"cat", it will reply with "mew"
-![line](./img/line.png)
+## Usage
+The initial state is set to `user`.
+
+Every time `user` state is triggered to `advance` to another state, it will `go_back` to `user` state after the bot replies corresponding message.
+
+* user
+	* Input: "go to state1"
+		* Reply: "Trigger state1"
+
+	* Input: "go to state2"
+		* Reply: "Trigger state2"
+		
+	* Input: "cat"
+		* Reply: "mew"
 
 ## Finite State Machine
 ![fsm](./img/show-fsm.png)
