@@ -16,3 +16,6 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
 
 ## Finite State Machine
 ![fsm](./img/show-fsm.png)
+
+## Heroku APP
+![fsm](./img/heroku.png)
